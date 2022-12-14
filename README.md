@@ -1,7 +1,15 @@
 # shopify-api-collections
 All shopify API collections master lists
 
-# To get shopify Reponse in PHP file after a notification events call
+# Basic Steps
+1) Create store
+2) Create App in the stores
+3) Copy API Key, API Secret, Access Token
+4) Click on notification
+5) Select shopify event and add webhook URL
+
+
+# To get shopify Reponse in Webhook URL in php
 define('CLIENT_SECRET', '709edeb8d0cc81ca976dba7d55063591');
 function verify_webhook($data, $hmac_header)
 {

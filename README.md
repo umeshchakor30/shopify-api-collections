@@ -9,7 +9,7 @@ The <strong>REST Admin API</strong> lets you build apps and other integrations f
 5) Select shopify event and add webhook URL
 
 
-# To get shopify Reponse in Webhook URL in php
+# To get shopify Response in Webhook URL in php
 define('CLIENT_SECRET', '709edeb8d0cc81ca976dba7d55063591');
 function verify_webhook($data, $hmac_header)
 {
